@@ -1,3 +1,19 @@
+package metodos;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import javax.swing.JPanel;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.ChartUtilities;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.category.DefaultCategoryDataset;
+
+/**
+ *
+ * @author Camille
+ */
 public class NewtonRaphson extends Funcao {
 
     private double erro_intervalo;
